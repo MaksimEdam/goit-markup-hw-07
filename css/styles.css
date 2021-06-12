@@ -233,7 +233,7 @@ body {
 
 .section-description__title,
 .work__title,
-.team-title,
+.team__title,
 .custom-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -297,19 +297,16 @@ body {
 .team {
   background-color: var(--background-our-team-filter);
 }
-.work-list-team {
-  margin-bottom: 50px;
-}
-.team-title {
+.team__title {
   font-weight: 500;
   margin-top: 30px;
 }
-.our-team {
+.team__our {
   display: flex;
   margin-left: -30px;
   margin-top: -30px;
 }
-.list-our-team {
+.team__our-list {
   background-color: var(--title-text-color-footer);
   margin-left: 30px;
   margin-top: 30px;
@@ -320,19 +317,19 @@ body {
 }
 
 .team .desc,
-.team-title {
+.team__title {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
 }
-.our-team .desc {
+.team__our .desc {
   margin-bottom: 16px;
 }
-.team-title {
+.team__title {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-.social-list-icon {
+.social-list__icon {
   width: 20px;
   height: 20px;
   fill: var(--icon-fill);
@@ -345,7 +342,7 @@ body {
   padding-bottom: 30px;
   justify-content: space-between;
 }
-.social-list-link {
+.social-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -355,12 +352,12 @@ body {
   border-radius: 50%;
   transition: background-color var(--transition-start-time) var(--cubic-bezier);
 }
-.social-list-link:hover,
-.social-list-link:focus {
+.social-list__link:hover,
+.social-list__link:focus {
   background-color: var(--accent-color);
 }
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
+.social-list__link:hover .social-list__icon,
+.social-list__link:focus .social-list__icon {
   fill: var(--title-text-color-footer);
 }
 /*=======================Конец секция наша команда==================================*/
