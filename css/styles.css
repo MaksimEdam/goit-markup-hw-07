@@ -198,19 +198,19 @@ body {
 /*====================Конец оформления секции героя ======================*/
 
 /*============================описание секции=============================*/
-.iconsection-list-icon {
+.section-icon__list {
   width: 70px;
   height: 70px;
   fill: var(--icon-fill);
 }
-.iconsection-list {
+.section-icon {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 94px;
   margin-bottom: 30px;
 }
-.iconsection-list-link {
+.section-icon__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -220,18 +220,18 @@ body {
   box-sizing: border-box;
   border-radius: 4px;
 }
-.section-description {
+.section-description__list {
   display: flex;
   margin-right: -30px;
   margin-top: -30px;
 }
-.list-description {
+.section-description__item {
   margin-right: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 120px) / 4);
 }
 
-.section-title,
+.section-description__title,
 .work-title,
 .team-title,
 .custom-title {
@@ -241,6 +241,10 @@ body {
   line-height: 1.14;
   margin-bottom: 10px;
 }
+.section-description__title {
+  text-transform: uppercase;
+}
+
 .desc,
 .footer .desc {
   font-size: 14px;
