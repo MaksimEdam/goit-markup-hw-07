@@ -166,7 +166,7 @@ body {
     url(../images/hero/background.jpg);
   background-size: cover;
 }
-.hero .hero-title {
+.hero .hero__title {
   color: var(--title-text-color-footer);
   font-weight: 900;
   font-size: 44px;
@@ -175,7 +175,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 40px;
 }
-.hero .hero-button {
+.hero .modal__button {
   border-radius: 4px;
   border: 0;
   background-color: var(--accent-color);
@@ -190,8 +190,8 @@ body {
   transition: background-color var(--transition-start-time) var(--cubic-bezier),
     color var(--transition-start-time) var(--cubic-bezier);
 }
-.hero .hero-button:hover,
-.hero .hero-button:focus {
+.hero .modal__button:hover,
+.hero .modal__button:focus {
   background-color: var(--button-hover-focus);
   color: var(--title-text-color-footer);
 }
