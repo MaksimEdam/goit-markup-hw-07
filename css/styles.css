@@ -232,7 +232,7 @@ body {
 }
 
 .section-description__title,
-.work-title,
+.work__title,
 .team-title,
 .custom-title {
   color: var(--title-text-color);
@@ -253,31 +253,28 @@ body {
 /*============================Конец описания секции=========================*/
 
 /*======================Секция чем мы занимаемся============================*/
-.work-list {
+.work__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
-.work-list-item {
+.work__item {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 90px) / 3);
 }
-.work-title,
+.work__title,
 .custom-title {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-}
-.work-additional,
-.custom-title {
   margin-bottom: 50px;
 }
-.work-list-img-wrapper {
+.work__img {
   position: relative;
 }
-.work-overlay {
+.work__overlay {
   position: absolute;
   bottom: 0;
   width: 100%;
