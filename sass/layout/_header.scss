@@ -39,7 +39,7 @@
 .menu__item:not(:last-child) {
   margin-right: 50px;
 }
-.menu .menu__link {
+.menu__link {
   position: relative;
   display: block;
   color: var(--title-text-color);
@@ -50,51 +50,55 @@
   transition: color var(--transition-start-time) var(--cubic-bezier);
   padding-top: 32px;
   padding-bottom: 32px;
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #2196f3;
+    border-radius: 2px;
+    opacity: 0;
+  }
+  &.current::after {
+    opacity: 1;
+  }
+  &:hover,
+  &:focus,
+  &.current {
+    color: var(--accent-color);
+  }
 }
-.menu__link::after {
-  content: '';
-  position: absolute;
-  bottom: -1px;
-  display: block;
-  width: 100%;
-  height: 4px;
-  background: #2196f3;
-  border-radius: 2px;
-  opacity: 0;
-}
-.menu__link.current::after {
-  opacity: 1;
-}
+
 .contact__mail {
   margin-right: 50px;
 }
 .contact__mail-link {
   display: flex;
   align-items: center;
+  color: var(--primary-text-color);
+  transition: color var(--transition-start-time) var(--cubic-bezier);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 .contact__phone-link {
   display: flex;
   align-items: center;
+  color: var(--primary-text-color);
+  transition: color var(--transition-start-time) var(--cubic-bezier);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
-.header__nav .menu__link:hover,
-.header__nav .menu__link:focus,
-.header__nav .menu__link.current,
-.contact .contact__mail-link:hover,
-.contact .contact__mail-link:focus,
-.contact .contact__phone-link:hover,
-.contact .contact__phone-link:focus,
+
 .logo__accent {
   color: var(--accent-color);
 }
 .mailphone-list-icon {
   fill: currentColor;
   margin-right: 10px;
-}
-.contact .contact__mail-link {
-  color: var(--primary-text-color);
-  transition: color var(--transition-start-time) var(--cubic-bezier);
-}
-.contact .contact__phone-link {
-  color: var(--primary-text-color);
-  transition: color var(--transition-start-time) var(--cubic-bezier);
 }

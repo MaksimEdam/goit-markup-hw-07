@@ -23,20 +23,25 @@
   transition: background-color var(--transition-start-time) var(--cubic-bezier),
     color var(--transition-start-time) var(--cubic-bezier),
     box-shadow var(--transition-start-time) var(--cubic-bezier);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--title-text-color-footer);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
 }
-.filter-button:hover,
-.filter-button:focus {
-  background-color: var(--accent-color);
-  color: var(--title-text-color-footer);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+
 .team-list-link-wrapper {
   color: var(--primary-text-color);
 }
 .team-list-img-wrapper {
   position: relative;
   overflow: hidden;
+  &:hover .overlay,
+  &:focus .overlay {
+    transform: translateY(0%);
+  }
 }
 .overlay {
   position: absolute;
@@ -55,10 +60,6 @@
   transition: transform var(--transition-start-time) var(--cubic-bezier);
 }
 
-.team-list-link-wrapper:hover .overlay,
-.team-list-link-wrapper:focus .overlay {
-  transform: translateY(0%);
-}
 .our-works {
   display: flex;
   flex-wrap: wrap;
@@ -71,11 +72,12 @@
   flex-basis: calc((100% - 90px) / 3);
   background: var(--title-text-color-footer);
   transition: box-shadow var(--transition-start-time) var(--cubic-bezier);
+  &:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
-.our-works-list:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+
 .border {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;

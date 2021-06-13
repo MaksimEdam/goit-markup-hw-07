@@ -3,6 +3,10 @@
   height: 20px;
   fill: var(--icon-fill);
   transition: fill var(--transition-start-time) var(--cubic-bezier);
+  .social-list__link:hover &,
+  .social-list__link:focus & {
+    fill: var(--title-text-color-footer);
+  }
 }
 .social-list {
   display: flex;
@@ -22,12 +26,8 @@
   background-color: var(--title-text-color-footer);
   border-radius: 50%;
   transition: background-color var(--transition-start-time) var(--cubic-bezier);
-}
-.social-list__link:hover,
-.social-list__link:focus {
-  background-color: var(--accent-color);
-}
-.social-list__link:hover .social-list__icon,
-.social-list__link:focus .social-list__icon {
-  fill: var(--title-text-color-footer);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }

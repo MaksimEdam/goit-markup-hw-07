@@ -19,12 +19,12 @@
   box-sizing: border-box;
   border-radius: 4px;
   transition: border-color var(--transition-start-time) var(--cubic-bezier);
-}
-.clients-list__link:hover,
-.clients-list__link:focus {
-  border-color: var(--accent-color);
-}
-.clients-list__link:hover .clients-list__icon,
-.clients-list__link:focus .clients-list__icon {
-  fill: var(--accent-color);
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+    & .clients-list__icon,
+    & .clients-list__icon {
+      fill: var(--accent-color);
+    }
+  }
 }
