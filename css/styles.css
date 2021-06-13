@@ -234,7 +234,7 @@ body {
 .section-description__title,
 .work__title,
 .team__title,
-.custom-title {
+.clients__title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -265,7 +265,7 @@ body {
   flex-basis: calc((100% - 90px) / 3);
 }
 .work__title,
-.custom-title {
+.clients__title {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -362,18 +362,18 @@ body {
 }
 /*=======================Конец секция наша команда==================================*/
 /*============Постоянные клиенты===============*/
-.custom-list-icon {
+.clients-list__icon {
   width: 106px;
   height: 60px;
   fill: var(--icon-fill);
   transition: fill var(--transition-start-time) var(--cubic-bezier);
 }
-.custom-list {
+.clients-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.custom-list-link {
+.clients-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -384,12 +384,12 @@ body {
   border-radius: 4px;
   transition: border-color var(--transition-start-time) var(--cubic-bezier);
 }
-.custom-list-link:hover,
-.custom-list-link:focus {
+.clients-list__link:hover,
+.clients-list__link:focus {
   border-color: var(--accent-color);
 }
-.custom-list-link:hover .custom-list-icon,
-.custom-list-link:focus .custom-list-icon {
+.clients-list__link:hover .clients-list__icon,
+.clients-list__link:focus .clients-list__icon {
   fill: var(--accent-color);
 }
 /*============Постоянные клиенты===============*/
