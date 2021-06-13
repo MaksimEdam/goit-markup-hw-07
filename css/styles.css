@@ -84,12 +84,22 @@ body {
   display: flex;
   align-items: center;
 }
-.header__nav .logo {
+.header__nav {
   color: var(--logo-nav);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+}
+
+.logo {
+  color: var(--logo-nav);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.logo_nav {
   margin-right: 93px;
 }
 .menu__item:not(:last-child) {
@@ -407,26 +417,22 @@ body {
   display: flex;
   background-color: var(--background-hero-footer);
 }
-.footer-container {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
 .footer-address-container {
   margin-right: 70px;
 }
-.footer-logo {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
+.logo_footer {
   margin-bottom: 20px;
   display: inline-block;
+  color: var(--title-text-color-footer);
 }
 .address-item:not(:last-child) {
   margin-bottom: 9px;
 }
-.footer-address,
-.footer-logo {
+.footer-address {
   color: var(--title-text-color-footer);
 }
 .footer-mail,
