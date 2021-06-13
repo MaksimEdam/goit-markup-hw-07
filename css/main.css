@@ -334,6 +334,11 @@ body {
 .header__nav {
   display: flex;
   align-items: center;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.23;
+  color: var(--logo-nav);
+  font-family: Raleway, sans-serif;
 }
 
 .menu {
@@ -346,23 +351,17 @@ body {
   align-items: center;
 }
 
-.header__nav {
-  color: var(--logo-nav);
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-}
-
 .logo {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.23;
   color: var(--logo-nav);
   font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
+  color: var(--logo-nav);
+  font-family: Raleway, sans-serif;
 }
 
-.logo_nav {
+.header__logo {
   margin-right: 93px;
 }
 
@@ -371,12 +370,12 @@ body {
 }
 
 .menu__link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
   position: relative;
   display: block;
   color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.02em;
   transition: color var(--transition-start-time) var(--cubic-bezier);
   padding-top: 32px;
@@ -450,10 +449,10 @@ body {
 }
 
 .hero__title {
-  color: var(--title-text-color-footer);
-  font-weight: 900;
   font-size: 44px;
+  font-weight: 900;
   line-height: 1.36;
+  color: var(--title-text-color-footer);
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 40px;
@@ -500,10 +499,10 @@ body {
 .work__title,
 .team__title,
 .clients__title {
-  color: var(--title-text-color);
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
+  color: var(--title-text-color);
   margin-bottom: 10px;
 }
 
@@ -543,6 +542,9 @@ body {
 }
 
 .work__overlay {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -551,9 +553,6 @@ body {
   justify-content: center;
   align-items: center;
   background: rgba(47, 48, 58, 0.8);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -662,7 +661,7 @@ body {
   margin-right: 70px;
 }
 
-.logo_footer {
+.footer__logo {
   margin-bottom: 20px;
   display: inline-block;
   color: var(--title-text-color-footer);
@@ -677,10 +676,10 @@ body {
 }
 
 .footer__title {
-  font-family: Roboto;
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
+  font-family: Roboto;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color-footer);
@@ -746,12 +745,12 @@ body {
 }
 
 .filter-button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
   background-color: var(--background-our-team-filter);
   color: var(--title-text-color);
   font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
   text-align: center;
   cursor: pointer;
   border-radius: 4px;

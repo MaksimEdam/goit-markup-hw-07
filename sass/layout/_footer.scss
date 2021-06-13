@@ -19,7 +19,7 @@
 .footer-address-container {
   margin-right: 70px;
 }
-.logo_footer {
+.footer__logo {
   margin-bottom: 20px;
   display: inline-block;
   color: var(--title-text-color-footer);
@@ -32,10 +32,8 @@
   color: var(--footer-mail-phone);
 }
 .footer__title {
+  @include font();
   font-family: Roboto;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color-footer);

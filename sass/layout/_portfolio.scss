@@ -8,12 +8,10 @@
   margin-right: 8px;
 }
 .filter-button {
+  @include font(16px, 500, 26px);
   background-color: var(--background-our-team-filter);
   color: var(--title-text-color);
   font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
   text-align: center;
   cursor: pointer;
   border-radius: 4px;

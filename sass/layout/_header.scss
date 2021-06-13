@@ -9,6 +9,9 @@
 .header__nav {
   display: flex;
   align-items: center;
+  @include font(26px, 700, 32px);
+  color: var(--logo-nav);
+  font-family: Raleway, sans-serif;
 }
 .menu {
   display: flex;
@@ -18,34 +21,24 @@
   display: flex;
   align-items: center;
 }
-.header__nav {
-  color: var(--logo-nav);
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-}
-
 .logo {
+  @include font(26px, 700, 32px);
   color: var(--logo-nav);
   font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
+  color: var(--logo-nav);
+  font-family: Raleway, sans-serif;
 }
-.logo_nav {
+.header__logo {
   margin-right: 93px;
 }
 .menu__item:not(:last-child) {
   margin-right: 50px;
 }
 .menu__link {
+  @include font(14px, 500, 16px);
   position: relative;
   display: block;
   color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.02em;
   transition: color var(--transition-start-time) var(--cubic-bezier);
   padding-top: 32px;
