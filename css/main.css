@@ -92,7 +92,7 @@ body {
   color: var(--title-text-color-footer);
 }
 
-.modal__button-style {
+.modal-button_style {
   color: var(--title-text-color);
   padding: 10px 32px;
 }
@@ -690,11 +690,11 @@ body {
   margin-right: 93px;
 }
 
-.social-list__item_margin:not(:last-child) {
+.social-list_item-margin:not(:last-child) {
   margin-right: 10px;
 }
 
-.social-list__link_background-color {
+.social-list_background-color {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -728,7 +728,7 @@ body {
   background-size: contain;
 }
 
-.footer__btn_style {
+.footer-btn_style {
   color: var(--title-text-color-footer);
   padding: 10px 29px;
 }
