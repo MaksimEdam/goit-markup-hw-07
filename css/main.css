@@ -305,13 +305,13 @@ body {
   border-color: var(--accent-color);
 }
 
-.modal-form__btn {
+.modal-form_btn {
   color: var(--title-text-color);
   padding: 10px 32px;
   margin-top: 30px;
 }
 
-.modal-form__btn:hover, .modal-form__btn:focus {
+.modal-form_btn:hover, .modal-form_btn:focus {
   background-color: var(--button-hover-focus);
   color: var(--title-text-color-footer);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -690,7 +690,7 @@ body {
   margin-right: 93px;
 }
 
-.social-list_item-margin:not(:last-child) {
+.social-list__item_margin:not(:last-child) {
   margin-right: 10px;
 }
 
