@@ -73,7 +73,7 @@ body {
   margin: 0 auto;
 }
 
-.modal__button {
+.modal-button {
   align-self: center;
   border-radius: 4px;
   border: 0;
@@ -87,7 +87,7 @@ body {
   transition: background-color var(--transition-start-time) var(--cubic-bezier), color var(--transition-start-time) var(--cubic-bezier);
 }
 
-.modal__button:hover, .modal__button:focus {
+.modal-button:hover, .modal-button:focus {
   background-color: var(--button-hover-focus);
   color: var(--title-text-color-footer);
 }
