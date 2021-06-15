@@ -432,7 +432,7 @@ body {
   color: var(--accent-color);
 }
 
-.mailphone-list-icon {
+.header__icon {
   fill: currentColor;
   margin-right: 10px;
 }
@@ -657,7 +657,7 @@ body {
   align-items: baseline;
 }
 
-.footer-address-container {
+.footer__address-container {
   margin-right: 70px;
 }
 
@@ -667,7 +667,7 @@ body {
   color: var(--title-text-color-footer);
 }
 
-.footer-address {
+.address-list__footer {
   color: var(--title-text-color-footer);
 }
 
